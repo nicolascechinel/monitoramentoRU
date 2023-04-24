@@ -12,12 +12,12 @@ DHT dht(DHTPIN, DHTTYPE); // Initialing DHT Class7
 #define KY037PIN 35
 
 // WiFi Network Configuration
-const char* ssid     = "Noah_ Exa internet";
-const char* password = "*********";
+const char* ssid     = "wifissd";
+const char* password = "password";
 const char *hostname = "esp32";
 
 //Helix IP Address
-const char *orionAddressPath = "18.234.188.169:1026/v2";
+const char *orionAddressPath = "YOUR_IP:1026/v2";
 
 // Device ID (example: urn:ngsi-ld:entity:001)
 const char *deviceID = "espRU";
@@ -56,7 +56,7 @@ void setupWiFi()
 
 void loop()
 {
-    float totalTemperature = 0;
+    float totalTemperature = 0; 
     float totalHumidity = 0;
     int noise_dB = 0;
     int MQ135_data = analogRead(MQ135PIN);
