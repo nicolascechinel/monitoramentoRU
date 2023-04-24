@@ -12,3 +12,5 @@ Ararangua, os dados foram coletados por meio de um ESP-32 com sensores para medi
 com comunicac¸ao wireless (WIFI IEE 802.11) e enviando os dados para a plataforma vir- ˜
 tual Helix Sandbox hospedado em nuvem na Amazon Web Services (AWS) enviando os
 dados via Hypertext Transfer Protocol (HTTP).
+
+projeto realizado na disciplina  de redes sem  fios no semestre 2022-1
